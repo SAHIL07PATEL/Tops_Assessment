@@ -11,10 +11,8 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 
   // Mobile validation
   if (!/^\d{10}$/.test(mobile)) {
-      alert('Mobile number must be 10 digits.');
-      return;
-  }
-
-  // submit the form
-  alert('Form submitted successfully!');
+        alert('Mobile number must be 10 digits.');
+    }else{
+      alert('Form submitted successfully!');
+    }
 });
